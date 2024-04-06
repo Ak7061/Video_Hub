@@ -1,0 +1,64 @@
+/* UserLogin.css */
+
+.userlogin {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  width: 400px;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  span {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+  }
+  
+  /* Style the link inside the span */
+  span a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  span a:hover {
+    text-decoration: underline;
+  }
+  

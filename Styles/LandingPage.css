@@ -1,0 +1,35 @@
+
+.landingpage{
+   
+    box-shadow: 0px 0px 10px gray;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    height: 250px;
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+}
+
+.landpage_sub{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.landpage_sub img{
+    height: 100px;
+    width: 120px;
+    border-radius: 50%;
+    
+}
+.landpage_sub a{
+    color: black;
+    text-decoration: none;
+    transition: .4s;
+
+
+}
+.landpage_sub a:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,33 @@
+.userview {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+/* body{
+  background-color: rgb(219, 209, 209);
+} */
+.userview>div {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.userview h3 {
+  margin-top: 0;
+  color: aliceblue;
+}
+
+.userview iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+}
+
+.userview span {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#des {
+  font-style: italic;
+}
